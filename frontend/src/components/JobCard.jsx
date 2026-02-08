@@ -13,7 +13,7 @@ const JobCard = ({ job, onDelete }) => {
           {job.location}
         </p>
         <p className="mb-2">
-          <b>Location: </b>
+          <b>Job Type: </b>
           {job.jobType}
         </p>
         <div className="d-flex flex-wrap gap-3 mt-4">
